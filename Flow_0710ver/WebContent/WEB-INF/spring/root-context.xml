@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:tx="http://www.springframework.org/schema/tx"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd
+		http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx.xsd">
+<context:annotation-config/>
+
+<!-- DataSource 설정 -->
+<bean id="dataSource" class="org.springframework.jndi.JndiObjectFactoryBean">
+	<property name="jndiName" value="java:comp/env/jdbc/myora"/>
+</bean>
+
+<!-- TransactionManager 설정 -->
+<bean id="tm" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+	<property name="dataSource" ref="dataSource"/>
+</bean>
+<!-- Transactional AOP 설정 -->
+<tx:annotation-driven transaction-manager="tm"/>
+
+<!-- MyBatis설정 start-->
+<bean id="factoryBean" class="org.mybatis.spring.SqlSessionFactoryBean">
+	<property name="dataSource" ref="dataSource"/>
+	<property name="configLocation" value="classpath:flow/mvc/config/config.xml"/>
+	<property name="mapperLocations" value="classpath*:flow/mvc/mapper/*.xml"/>
+</bean>
+
+<bean id="ss" class="org.mybatis.spring.SqlSessionTemplate">
+	<constructor-arg ref="factoryBean"/>
+</bean>
+<!-- MyBatis설정 end-->
+
+<!-- fileupload  CommonsMultipartResolver 추가해야 한다. common-fileupload.jar -->
+<bean id="multipartResolver" 
+class="org.springframework.web.multipart.commons.CommonsMultipartResolver"/>
+
+
+
+
+
+
+</beans>

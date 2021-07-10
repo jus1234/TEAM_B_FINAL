@@ -1,0 +1,11 @@
+/* 퍼블리싱 필수 공통영역 */
+@charset "utf-8";
+
+.tb_result thead th a.asc{ padding-right:15px; color:#3169a1; background:url('../images/btn/icon_sort_asc.gif') no-repeat right center;}
+.tb_result thead th a.desc{ padding-right:15px; color:#3169a1; background:url('../images/btn/icon_sort_desc.gif') no-repeat right center;}
+
+.titWrap h2 a { color: #fff;}
+.titWrap h2 a:hover{font-weight:700;}
+
+input[type="email"] {width:100%;height:30px;color:#555555;background:#ffffff;border:1px solid #ccc;text-indent:12px;vertical-align:middle;}
+input[readonly="readonly"]{background:#f3f3f3;}
