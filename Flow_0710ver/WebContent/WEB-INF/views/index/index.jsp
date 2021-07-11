@@ -25,6 +25,7 @@
 	<p>NY로 수정한 부분입니다.</p>
 	<p>TG로 수정한 부분입니다.</p>
 	<p> after ignore </p>
+	<p> after ignore mainfest.mf</p>
 
 </body>
 </html>
