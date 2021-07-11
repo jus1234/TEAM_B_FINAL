@@ -13,7 +13,7 @@ public class MemberController {
 
 	@RequestMapping("/login")
 	public String loginPage(Model m) throws FileNotFoundException, IOException {
-		System.out.println("defaultMain 진입");
-		return "index/index";
+		System.out.println("MemberController  - login 진입");
+		return "member/login/login";
 	}
 }
