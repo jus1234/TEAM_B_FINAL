@@ -26,5 +26,6 @@
 	<p>TG로 수정한 부분입니다.</p>
 	<p>gitignore 이후 작성한 부분입니다</p>
 	<p>gitignore 이후 작성한 부분입니다</p>
+	<p>gitignore MANIFEST.MF 제거 확인 부분입니다.</p>
 </body>
 </html>
