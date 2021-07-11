@@ -278,4 +278,10 @@ function fnPopNoitce(){
 		<tiles:insertAttribute name="footer"/>
 	</div>
 </body>
+<script>
+    window.dyc = {
+        "chatbotUid": "ab460da652b3967b"
+    };
+</script>
+<script async src="https://cloudturing.chat/v1.0/chat.js"></script>
 </html>
