@@ -1,10 +1,9 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
-    
+<%@ page language="java" contentType="text/html; charset=EUC-KR"
+    pageEncoding="EUC-KR"%>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8">
+<meta charset="EUC-KR">
 <title>Insert title here</title>
 </head>
 <body>
@@ -25,6 +24,7 @@
 	<p>JE 변경사항이오.</p>
 	<p>NY로 수정한 부분입니다.</p>
 	<p>TG로 수정한 부분입니다.</p>
+	<p> after ignore </p>
 
 </body>
 </html>
