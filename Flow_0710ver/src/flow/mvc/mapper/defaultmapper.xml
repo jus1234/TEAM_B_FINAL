@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+  <mapper namespace="member">
+  <select id="detail" parameterType="String" resultType="mem">
+		select M_NUM, M_ID ,M_PWD, M_NAME, M_DIVISION , M_ADATE 
+		from member where M_ID = #{userID}
+	</select>
+  </mapper>
