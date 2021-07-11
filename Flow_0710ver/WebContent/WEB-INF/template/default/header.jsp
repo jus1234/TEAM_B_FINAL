@@ -1,77 +1,80 @@
 <%@ page language="java" contentType="text/html; charset=EUC-KR"
 	pageEncoding="EUC-KR"%>
 <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
-<!-- Çì´õ ¿µ¿ª ½ÃÀÛ -->
-	<!-- À¥ Çì´õ ¿µ¿ª ½ÃÀÛ -->
-    <div id="header">
-        <div class="headerWrap">
-			<div class="headerTop">
-				<h1><a href="/"><img src="resources/images/logo.png" alt="¿ÀÇÂ´ÙÆ® ·Î°í"/></a></h1>
-				<div class="util_menu">
+<!-- í—¤ë” ì˜ì—­ ì‹œìž‘ -->
+<!-- ì›¹ í—¤ë” ì˜ì—­ ì‹œìž‘ -->
+<div id="header">
+	<div class="headerWrap">
+		<div class="headerTop">
+			<h1>
+				<a href="/"><img src="resources/images/logo.svg"
+					style="width: 120px; padding-top: 5px" alt="ì˜¤í”ˆë‹¤íŠ¸ ë¡œê³ " /></a>
+			</h1>
+			<div class="util_menu">
 				<form name="selectOne" method="post">
-					<ul>	
-								<li><a href='/uat/uia/egovLoginUsr.do'>LOGIN</a></li>
+					<ul>
+						<li><a href='/uat/uia/egovLoginUsr.do'>LOGIN</a></li>
 						<li><a href="/sitemap/main.do">SITE MAP</a></li>
 					</ul>
-					</form>
-				</div>
+				</form>
 			</div>
             <ul class="gnb">
                 <li>
-                    <a href="/intro/main.do">¿ÀÇÂAPI ¼Ò°³</a>
+                    <a href="/intro/main.do">ì˜¤í”ˆAPI ì†Œê°œ</a>
                     <ul class="first">
-                        <li><a href="/intro/main.do">¿ÀÇÂAPI ¼Ò°³</a></li>
-                        <li><a href="/intro/infoApiList.do">¿ÀÇÂAPI ¼­ºñ½º ¼Ò°³</a></li>
-						<li><a href="/intro/terms.do">ÀÌ¿ë¾à°ü</a></li>
-						<li><a href="/intro/confirm.do">°³ÀÎÁ¤º¸ ¼öÁýÀÌ¿ëµ¿ÀÇ</a></li>
+                        <li><a href="/intro/main.do">ì˜¤í”ˆAPI ì†Œê°œ</a></li>
+                        <li><a href="/intro/infoApiList.do">ì˜¤í”ˆAPI ì„œë¹„ìŠ¤ ì†Œê°œ</a></li>
+						<li><a href="/intro/terms.do">ì´ìš©ì•½ê´€</a></li>
+						<li><a href="/intro/confirm.do">ê°œì¸ì •ë³´ ìˆ˜ì§‘ì´ìš©ë™ì˜</a></li>
                     </ul>
                 </li>
                 <li>
-                  	<a href="/mng/userApiKeyListView.do">ÀÎÁõÅ° ½ÅÃ»/°ü¸®</a>
+                  	<a href="/mng/userApiKeyListView.do">ì¸ì¦í‚¤ ì‹ ì²­/ê´€ë¦¬</a>
                     <ul>
-						<li><a href="/uss/umt/EgovMberInsertView.do">ÀÎÁõÅ° ½ÅÃ»</a></li>
-						<li><a href="/mng/userApiKeyListView.do">ÀÎÁõÅ° °ü¸®</a></li>
-                        <li><a href="/mng/apiUsageStatusView.do">¿ÀÇÂAPI ÀÌ¿ëÇöÈ²</a></li>
+						<li><a href="/uss/umt/EgovMberInsertView.do">ì¸ì¦í‚¤ ì‹ ì²­</a></li>
+						<li><a href="/mng/userApiKeyListView.do">ì¸ì¦í‚¤ ê´€ë¦¬</a></li>
+                        <li><a href="/mng/apiUsageStatusView.do">ì˜¤í”ˆAPI ì´ìš©í˜„í™©</a></li>
                     </ul>
                 </li>
                 <li>
-                    <a href="/guide/main.do?apiGrpCd=DS001">°³¹ß°¡ÀÌµå</a>
+                    <a href="/guide/main.do?apiGrpCd=DS001">ê°œë°œê°€ì´ë“œ</a>
                     <ul>
-                        <li><a href="/guide/main.do?apiGrpCd=DS001">°ø½ÃÁ¤º¸</a></li>
-						<li><a href="/guide/main.do?apiGrpCd=DS002">»ç¾÷º¸°í¼­ ÁÖ¿äÁ¤º¸</a></li>
-						<li><a href="/guide/main.do?apiGrpCd=DS003">»óÀå±â¾÷ Àç¹«Á¤º¸</a></li>
-						<li><a href="/guide/main.do?apiGrpCd=DS004">ÁöºÐ°ø½Ã Á¾ÇÕÁ¤º¸</a></li>
+                        <li><a href="/guide/main.do?apiGrpCd=DS001">ê³µì‹œì •ë³´</a></li>
+						<li><a href="/guide/main.do?apiGrpCd=DS002">ì‚¬ì—…ë³´ê³ ì„œ ì£¼ìš”ì •ë³´</a></li>
+						<li><a href="/guide/main.do?apiGrpCd=DS003">ìƒìž¥ê¸°ì—… ìž¬ë¬´ì •ë³´</a></li>
+						<li><a href="/guide/main.do?apiGrpCd=DS004">ì§€ë¶„ê³µì‹œ ì¢…í•©ì •ë³´</a></li>
                     </ul>
                 </li>
                 <li>
-                    <a href="/disclosureinfo/biz/main.do">°ø½ÃÁ¤º¸ È°¿ë¸¶´ç</a>
+                    <a href="/disclosureinfo/biz/main.do">ê³µì‹œì •ë³´ í™œìš©ë§ˆë‹¹</a>
                     <ul>
-                        <li><a href="/disclosureinfo/biz/main.do">»ç¾÷º¸°í¼­ ÁÖ¿äÁ¤º¸Á¶È¸</a></li>
-						<li><a href="/disclosureinfo/fnltt/singl/main.do">Àç¹«Á¤º¸Á¶È¸</a></li>
-						<li><a href="/disclosureinfo/fnltt/dwld/main.do">Àç¹«Á¤º¸ÀÏ°ý´Ù¿î·Îµå</a></li>
-						<li><a href="/disclosureinfo/qota/main.do">ÁöºÐ°ø½Ã Á¾ÇÕÁ¤º¸Á¶È¸</a></li>
+                        <li><a href="/disclosureinfo/biz/main.do">ì‚¬ì—…ë³´ê³ ì„œ ì£¼ìš”ì •ë³´ì¡°íšŒ</a></li>
+						<li><a href="/disclosureinfo/fnltt/singl/main.do">ìž¬ë¬´ì •ë³´ì¡°íšŒ</a></li>
+						<li><a href="/disclosureinfo/fnltt/dwld/main.do">ìž¬ë¬´ì •ë³´ì¼ê´„ë‹¤ìš´ë¡œë“œ</a></li>
+						<li><a href="/disclosureinfo/qota/main.do">ì§€ë¶„ê³µì‹œ ì¢…í•©ì •ë³´ì¡°íšŒ</a></li>
                     </ul>
                 </li>
                 <li>
-                    <a href="/cop/bbs/selectArticleList.do?bbsId=B0000000000000000001">¼ÒÅëÃ¢±¸</a>
+                    <a href="/cop/bbs/selectArticleList.do?bbsId=B0000000000000000001">ì†Œí†µì°½êµ¬</a>
                     <ul>
-                        <li><a href="/cop/bbs/selectArticleList.do?bbsId=B0000000000000000001">°øÁö»çÇ×</a></li>
+                        <li><a href="/cop/bbs/selectArticleList.do?bbsId=B0000000000000000001">ê³µì§€ì‚¬í•­</a></li>
 						<li><a href="/cop/bbs/selectArticleList.do?bbsId=B0000000000000000002">FAQ </a></li>
 						<li><a href="/cop/bbs/selectArticleList.do?bbsId=B0000000000000000003">Q&A</a></li>
-						<li><a href="/cop/bbs/selectArticleList.do?bbsId=B0000000000000000004">º¯µ¿³»¿ª¾Ë¸²</a></li>
+						<li><a href="/cop/bbs/selectArticleList.do?bbsId=B0000000000000000004">ë³€ë™ë‚´ì—­ì•Œë¦¼</a></li>
                     </ul>
                 </li>
 				 <li>
-                    <a href="/mng/selectUserInfoView.do">¸¶ÀÌÆäÀÌÁö</a>
+                    <a href="/mng/selectUserInfoView.do">ë§ˆì´íŽ˜ì´ì§€</a>
                     <ul>
-                        <li><a href="selectUserInfoView">»ç¿ëÀÚ Á¤º¸Á¶È¸</a></li>
-                        <li><a href="/mng/changeUserPwView.do">ºñ¹Ð¹øÈ£ º¯°æ</a></li>
-                        <li><a href="/mng/signOutUserView.do">Å»ÅðÇÏ±â</a></li>
+                        <li><a href="selectUserInfoView">ì‚¬ìš©ìž ì •ë³´ì¡°íšŒ</a></li>
+                        <li><a href="/mng/changeUserPwView.do">ë¹„ë°€ë²ˆí˜¸ ë³€ê²½</a></li>
+                        <li><a href="/mng/signOutUserView.do">íƒˆí‡´í•˜ê¸°</a></li>
                     </ul>
                 </li>
             </ul>
         </div>
         <div class="bg01"></div>
     </div>
-	<!-- À¥ Çì´õ ¿µ¿ª ³¡ -->
-	<!-- Çì´õ ¿µ¿ª ³¡ --> 
+	<!-- ì›¹ í—¤ë” ì˜ì—­ ë -->
+	<!-- í—¤ë” ì˜ì—­ ë --> 
+
