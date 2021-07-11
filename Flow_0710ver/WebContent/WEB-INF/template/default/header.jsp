@@ -64,7 +64,7 @@
 				 <li>
                     <a href="/mng/selectUserInfoView.do">마이페이지</a>
                     <ul>
-                        <li><a href="/mng/selectUserInfoView.do">사용자 정보조회</a></li>
+                        <li><a href="selectUserInfoView">사용자 정보조회</a></li>
                         <li><a href="/mng/changeUserPwView.do">비밀번호 변경</a></li>
                         <li><a href="/mng/signOutUserView.do">탈퇴하기</a></li>
                     </ul>
