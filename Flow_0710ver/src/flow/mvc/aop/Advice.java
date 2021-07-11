@@ -22,7 +22,7 @@ public class Advice {
 		}
 	}
 
-	@Around(value = "execution(* flow.mvc.controller.*.*(..))")
+	@Around(value = "execution(* flow.mvc.controller.*.*.*(..))")
 	public Object logAdvice(ProceedingJoinPoint pjp) throws Throwable {
 		// MethodInvocation을 통해 메서드 정보, 타겟 오브젝트에 대한 정보 알 수있다
 		String methodName = pjp.getSignature().getName();
