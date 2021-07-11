@@ -2,7 +2,6 @@
 	pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 
-
 <!-- 컨텐츠 영역 시작 -->
 <div id="containerMain">
 
