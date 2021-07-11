@@ -44,6 +44,7 @@
                 <div class="text-center">
                   <a class="small" href="#">Forgot password?</a></div>
                   <p>commit¿ë</p>
+                  <p>commit¿ë2</p>
               </form>
             </div>
           </div>
