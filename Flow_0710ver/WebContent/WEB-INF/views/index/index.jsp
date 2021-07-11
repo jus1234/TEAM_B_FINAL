@@ -24,7 +24,7 @@
 	<p>JE 변경사항이오.</p>
 	<p>NY로 수정한 부분입니다.</p>
 	<p>TG로 수정한 부분입니다.</p>
+	<p>gitignore 이후 작성한 부분입니다</p>
 	<p> after ignore </p>
-
 </body>
 </html>
