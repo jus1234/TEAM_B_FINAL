@@ -8,12 +8,10 @@
 <meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta http-equiv="x-ua-compatible" content="ie=edge" />
-<link rel="stylesheet" type="text/css" href="resources/css/common.css?after" />
-<link rel="stylesheet" type="text/css" href="resources/css/custom.css?after" />
-<link rel="stylesheet" type="text/css" href="resources/css/slick.css?after" />
-<link rel="stylesheet" type="text/css" href="resources/css/font.css?after" />
-<link rel="stylesheet" type="text/css" href="resources/css/web.css?after" />
-<link rel="stylesheet" type="text/css" href="resources/js/jquery-ui-1.12.1/jquery-ui.min.css?after" />
+<link rel="stylesheet" type="text/css" href="resources/css/common.css" />
+<link rel="stylesheet" type="text/css" href="resources/css/custom.css" />
+<link rel="stylesheet" type="text/css" href="resources/css/slick.css" />
+<link rel="stylesheet" type="text/css" href="resources/js/jquery-ui-1.12.1/jquery-ui.min.css" />
 <link rel="shortcut icon" type="image/x-icon" href="data:image/x-icon;," />
 <script type="text/javascript" src="resources/js/jquery-1.12.3.min.js"></script>
 <script type="text/javascript" src="resources/js/cssCommon.js"></script>
@@ -280,10 +278,4 @@ function fnPopNoitce(){
 		<tiles:insertAttribute name="footer"/>
 	</div>
 </body>
-<script>
-    window.dyc = {
-        "chatbotUid": "ab460da652b3967b"
-    };
-</script>
-<script async src="https://cloudturing.chat/v1.0/chat.js"></script>
 </html>

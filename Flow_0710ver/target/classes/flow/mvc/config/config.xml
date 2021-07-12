@@ -3,4 +3,11 @@
   PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
   "http://mybatis.org/dtd/mybatis-3-config.dtd">
 <configuration>
+
+	<typeAliases> <!-- 경로 확인 : ctrl 키 눌러서 이동해보기 -->
+		<typeAlias type="flow.mvc.vo.MemberVO" alias="mem" />
+ 
+			
+	</typeAliases>
+ 
 </configuration> 

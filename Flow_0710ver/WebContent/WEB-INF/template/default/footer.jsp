@@ -27,10 +27,10 @@
 			<div class="logo"><a href="http://www.fss.or.kr/fss/kr/main.html" target="_blank" ><img src="resources/images/footer_logo.png" alt="금융감독원 바로가기"></a></div>
 			<div class="line"></div>
 			<div class="copy">서울시 금천구 가산디지털2로 123 월드메르디앙2차 4층  413호  대표전화 : <a href="tel:0220258523">02)2025-8523</a><br>
-				Copyleft (c) flow service. all rights reversed. 
+				Copyleft (c) FLOW service. all rights reversed. 
 			</div>
 			<div class="line"></div>
-			<div class="inquiry">홈페이지 : ikosmo.co.kr <br>
+			<div class="inquiry">홈페이지 : Https://ikosmo.co.kr <br>
 				
 			</div>
 		</div>
